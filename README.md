@@ -13,4 +13,4 @@ Step 4 - Try asking chat gpt via the normal chat gpt interface "what does sex 1.
 
 Step 5 - From the command line use 'python chatbot.py' to run the training and the bot and ask it about sex 1.0, 2.0 or 3.0. Their core designs and the eras that they exist in and it can now answer all the questions contained in /data/training.txt so just put the info your want to train gpt with in this file instead.
 
-Step 6 - If you quit the program and then comment out line 44. The line that trains GPT that goes "index = construct_index("data/")" and run the program again and ask the same questions you will see that it has retained the new training without needing to be trained again as it is based off your API key.
+Step 6 - If you quit the program and then comment out line 44. The line that trains GPT that goes "index = construct_index("data/")" and run the program again and ask the same questions you will see that it has retained the new training without needing to be trained again as it is based off the training data in the .json file that you already created.
